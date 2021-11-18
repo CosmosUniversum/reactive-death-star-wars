@@ -37,10 +37,101 @@
   }
 }
 
+.Div-StarShips {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100px;
+  width: 200px;
+  margin: 10px;
+  padding: 10px ;
+}
+
+.Div-StarShip-model, .Div-StarShip-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50px;
+  width: 200px;
+  margin: 0px 10px 0px 10px ;
+  padding: 0px 10px 0px 10px;
+}
+
+.Div-StarShip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  padding: 10px ;
+}
+
+.StarShip-name, .StarShip-model {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  padding: 10px ;
+}
+
+
+
 #Nav-div {
-  background-color: darkgray;
+  background-color: rgb(139, 139, 139);
   color: whitesmoke;
   font-size: 2rem;
   padding: 7px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+#Link-StarShips {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  background-color: aquamarine;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+#Div-StarShipDetails {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  background-color: aquamarine;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+#Div-AllStarShips {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr;
+  max-width: 1920px;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#return-link { 
+  color: black;
+}
+
+#StarShipDetails-container {
+  margin-top: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
